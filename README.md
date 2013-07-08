@@ -1,7 +1,7 @@
 statement-to-interrogative
 =============
 
-Chrome extension that replaces turns statements into interrogatives
+Chrome extension that turns statements into interrogatives
 
 [Direct download of crx file](https://github.com/iaman/statement-to-interrogative/blob/master/StatementToInterrogative.crx?raw=true)
 
