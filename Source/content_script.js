@@ -30,7 +30,8 @@ function walk(node)
 function handleText(textNode) 
 {
 	var v = textNode.nodeValue;
-	v = v.replace(/\b([Vv])ideogame(s?)\b/g, "$1ideo game$2");
+	v = v.replace(/\b([Vv])ideo([Gg])ame(s?)\b/g, "$1idya $2aem$3");
+  v = v.replace(/\b([Vv])ideo ([Gg])ame(s?)\b/g, "$1idya $2aem$3");
 	textNode.nodeValue = v;
 }
 
